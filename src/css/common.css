@@ -16,3 +16,37 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.input__timer {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.btn__timer {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.timer{
+  display: flex;
+  gap: 15px;
+}
+ .field{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  border-radius: 4px;  
+ }
+
+ .value{
+  font-size: 48px;
+  color: azure;
+ }
+ .label{
+  font-size: 18px;
+  color: azure;
+ }
